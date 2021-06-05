@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MDS BSG LADOT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <header id="header-index">
+    <a href="index.html"><img alt="LADOT" src="LADOT_logo.png"></a>
+    </header>
+    <body class="mds dash">
+        <div class="div-container">
+            <div id="left-div" >
+            <input type="radio" id="birdLa" name="mdsprovider" value="birdLa" onclick="runFunc(0)">
+            <label for="birdLa">Bird (LA)</label> <br>
+            <input type="radio" id="birdSm" name="mdsprovider" value="birdSm" onclick="runFunc(1)">
+            <label for="birdSm">Bird (SM)</label> <br>
+            <input type="radio" id="lime" name="mdsprovider" value="lime" onclick="runFunc(2)">
+            <label for="lime">Lime</label> <br>
+            <input type="radio" id="lyft" name="mdsprovider" value="lyft" onclick="runFunc(3)">
+            <label for="lyft">Lyft</label> <br>
+            <input type="radio" id="spin" name="mdsprovider" value="spin" onclick="runFunc(4)">
+            <label for="spin">Spin</label> <br>
+            <input type="radio" id="wheels" name="mdsprovider" value="wheels" onclick="runFunc(5)">
+            <label for="wheels">Wheels</label>
+            </div>
+            <div id="right-div">
+                <p>Scooters Available</p>
+                <p id="demo"></p>
+            </div>
+        </div>
+        <script src="/static/script.js"></script>
+    </body>
+</html>
